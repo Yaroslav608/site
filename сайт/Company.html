@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фирма по ремонту компьютерной техники</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e48579;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }    
+        h2 {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .button {
+            background-color: #6ca7e6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1em;
+            margin: 10px;
+
+        }
+        .button:hover {
+            background-color: #6ca7e6;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .gallery-item {
+            display: flex; /* Используем flex для выравнивания изображения и текста */
+            align-items: center; /* Центрируем элементы по вертикали */
+            margin: 10px;
+            border: 1px solid#0f0202;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 500px; /* Ширина контейнера изображения и текста */
+        }
+        .gallery-item img {
+            width: 300px; /* Ширина изображения */
+            height: auto; /* Высота будет пропорциональна ширине */
+            margin-right: 10px; /* Отступ между изображением и текстом */
+        }
+        .gallery-item p {
+            margin: 0; /* Убираем отступы у текста */
+            font-size: 1em; /* Размер шрифта для текста */
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h1>Фирма по ремонту компьютерной техники</h1>
+    <p>Ваш надежный партнер в мире технологий!</p>
+   
+    <a href="checkout.html" class="button">Оформить товар</a>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="glass.jpg">
+            <h2>Замена стекла на планшете AIR Цена 3000 ₽ </h2>
+            
+                
+           
+        </div>
+        <div class="gallery-item">
+            <img src="camera.jpg">
+            <h2>Замена камеры на iPhone 12 Pro Цена 2900 ₽</h2>
+        </div>
+        <div class="gallery-item">
+            <img src="batarei.jpg">
+            <h2>Замена аккумулятора на iPhone 12 Pro Цена 2500 ₽</h2>
+        </div>
+    </div>
+
+</body>
+</html>
+
